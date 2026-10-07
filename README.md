@@ -32,7 +32,7 @@ A client mod for Fabric 1.21.11 that places cobwebs where you aim, returns to yo
 
 ## Install
 
-1. Download the JAR from [downloads](downloads/cobweb-placement-optimizer-1.0.5-fabric-1.21.11.jar).
+1. Download the JAR from [downloads](downloads/cobweb-placement-optimizer-1.0.6-fabric-1.21.11.jar).
 2. Place it in your Minecraft instance's mods folder.
 3. Install Fabric API and Mod Menu for 1.21.11.
 4. Remove an older Cobweb JAR before adding this version.
@@ -84,7 +84,7 @@ The remapped mod is created in build/libs/.
 
 ## Validation
 
-Version 1.0.5 compiles and remaps for Fabric 1.21.11. Minecraft runtime, renderer compatibility, and Grim behavior need in-game verification. No anti-cheat compatibility guarantee is made.
+Version 1.0.6 fixes startup crashing when the mod initializes before Minecraft's client options are ready. It compiles and remaps for Fabric 1.21.11. Minecraft runtime, renderer compatibility, and Grim behavior need in-game verification. No anti-cheat compatibility guarantee is made.
 
 ## Author and support
 

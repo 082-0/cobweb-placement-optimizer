@@ -19,22 +19,27 @@ public final class CobwebClient implements ClientModInitializer {
     private long lastColorRefresh; private int original = -1;
     private int webSlot = -1;
     private ClientPlayerEntity owner;
+    private boolean bindingsInitialized;
 
     @Override public void onInitializeClient() {
         CobwebConfig.load();
         MinecraftClient client = MinecraftClient.getInstance();
-        restoreSavedHotbarBinding(client);
         CobwebAppearance.register();
         net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry.BLOCK.register(
             (state, world, pos, index) -> CobwebConfig.tint(), net.minecraft.block.Blocks.COBWEB);
         key = KeyBindingHelper.registerKeyBinding(new KeyBinding(
             "key.cobweb.place", InputUtil.Type.KEYSYM, -1,
             KeyBinding.Category.create(Identifier.of("cobweb", "actions"))));
-        suppressConflictingHotbarBinding(client, KeyBindingHelper.getBoundKeyOf(key));
         ClientTickEvents.START_CLIENT_TICK.register(this::tick);
     }
 
     private void tick(MinecraftClient client) {
+        if (!bindingsInitialized) {
+            if (client.options == null) return;
+            restoreSavedHotbarBinding(client);
+            suppressConflictingHotbarBinding(client, KeyBindingHelper.getBoundKeyOf(key));
+            bindingsInitialized = true;
+        }
  if (CobwebConfig.style == 2 && client.world != null && System.nanoTime()-lastColorRefresh > 250_000_000L) { if (client.player != null) { var origin=client.player.getBlockPos(); for (var pos : net.minecraft.util.math.BlockPos.iterate(origin.add(-8,-8,-8), origin.add(8,8,8))) { if (client.world.getBlockState(pos).isOf(net.minecraft.block.Blocks.COBWEB)) client.worldRenderer.scheduleBlockRenders(pos.getX(),pos.getY(),pos.getZ(),pos.getX(),pos.getY(),pos.getZ()); } } lastColorRefresh=System.nanoTime(); }
         if (original != -1) { if (client.player == owner && System.nanoTime() < restoreAt) { while (key.wasPressed()) {} return; }
             if (client.player == owner && owner.getInventory().getSelectedSlot() == webSlot) {
