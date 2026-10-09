@@ -1,5 +1,7 @@
 # Cobweb Placement Optimizer
 
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Fabric](https://img.shields.io/badge/Fabric-DBD0B4?logo=fabric&logoColor=black)
+
 **Aim. Place. Switch back. Customize the color.** A Fabric client mod for Minecraft that places a cobweb at your crosshair, restores your previous hotbar slot, and lets you choose how cobwebs look.
 
 ## Downloads
