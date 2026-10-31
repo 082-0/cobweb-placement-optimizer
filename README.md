@@ -44,7 +44,7 @@ Open **Mods → Cobweb Placement Optimizer → Configure** to select the binding
 
 ## Links <sub>リンク</sub>
 
-[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meatforlove`**
+[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meantforlove`**
 
 ## License <sub>ライセンス</sub>
 
