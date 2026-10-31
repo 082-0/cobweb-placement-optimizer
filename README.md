@@ -1,10 +1,18 @@
-# Cobweb Placement Optimizer
+<div align="center">
 
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Fabric](https://img.shields.io/badge/Fabric-DBD0B4?logo=fabric&logoColor=black)
+<img src="assets/night/banner.svg" alt="Cobweb 巣 — placement optimizer for Fabric 1.21.11. Night sky with a cold moon and an ink-black cherry branch." width="100%" />
+
+<br />
+
+![Java](https://img.shields.io/badge/Java-1a102e?logo=openjdk&logoColor=b3a0d8) ![Fabric](https://img.shields.io/badge/Fabric-1a102e?logo=fabric&logoColor=b3a0d8)
+
+</div>
 
 **Aim. Place. Switch back. Customize the color.** A Fabric client mod for Minecraft that places a cobweb at your crosshair, restores your previous hotbar slot, and lets you choose how cobwebs look.
 
-## Downloads
+<img src="assets/night/divider.svg" alt="" width="100%" />
+
+## Downloads <sub>ダウンロード</sub>
 
 | Mod | Download | Fabric API | Java |
 |---|---|---|---|
@@ -12,7 +20,7 @@
 
 Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API, and Mod Menu 17.x for the Configure screen. Client-side mod; install it in your client mods folder.
 
-## Pictures
+## Pictures <sub>画像</sub>
 
 ### Purple cobweb coloration
 
@@ -24,7 +32,7 @@ Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API
 
 *These are concept images illustrating the mod's appearance options, not screenshots captured in Minecraft.*
 
-## What it does
+## What it does <sub>機能</sub>
 
 - Places a cobweb at the block face under your crosshair with one key or mouse-button press.
 - Selects cobwebs from your hotbar, then switches back to your previous slot after the configurable delay.
@@ -34,10 +42,12 @@ Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API
 
 Open **Mods → Cobweb Placement Optimizer → Configure** to select the binding, restore delay, appearance, and color.
 
-## Links
+## Links <sub>リンク</sub>
 
-[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues)
+[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meatforlove`**
 
-## License
+## License <sub>ライセンス</sub>
 
 MIT
+
+<img src="assets/night/footer.svg" alt="夜に作る · built after dark" width="100%" />
