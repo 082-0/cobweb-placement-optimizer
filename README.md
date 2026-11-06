@@ -12,7 +12,7 @@
 
 <img src="assets/night/divider.svg" alt="" width="100%" />
 
-## Downloads <sub>ダウンロード</sub>
+## 桜 · Downloads
 
 | Mod | Download | Fabric API | Java |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 
 Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API, and Mod Menu 17.x for the Configure screen. Client-side mod; install it in your client mods folder.
 
-## Pictures <sub>画像</sub>
+## 桜 · Pictures
 
 ### Purple cobweb coloration
 
@@ -32,7 +32,7 @@ Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API
 
 *These are concept images illustrating the mod's appearance options, not screenshots captured in Minecraft.*
 
-## What it does <sub>機能</sub>
+## 桜 · What it does
 
 - Places a cobweb at the block face under your crosshair with one key or mouse-button press.
 - Selects cobwebs from your hotbar, then switches back to your previous slot after the configurable delay.
@@ -42,11 +42,11 @@ Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API
 
 Open **Mods → Cobweb Placement Optimizer → Configure** to select the binding, restore delay, appearance, and color.
 
-## Links <sub>リンク</sub>
+## 桜 · Links
 
-[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meantforlove`**
+[Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meantforlove.`**
 
-## License <sub>ライセンス</sub>
+## 桜 · License
 
 MIT
 
