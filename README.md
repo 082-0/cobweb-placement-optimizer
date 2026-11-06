@@ -12,7 +12,7 @@
 
 <img src="assets/night/divider.svg" alt="" width="100%" />
 
-## 桜 · Downloads
+## ✦ 桜 Downloads
 
 | Mod | Download | Fabric API | Java |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 
 Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API, and Mod Menu 17.x for the Configure screen. Client-side mod; install it in your client mods folder.
 
-## 桜 · Pictures
+## 桜・Pictures
 
 ### Purple cobweb coloration
 
@@ -42,7 +42,7 @@ Use the JAR for your exact Minecraft version. Requires Fabric Loader, Fabric API
 
 Open **Mods → Cobweb Placement Optimizer → Configure** to select the binding, restore delay, appearance, and color.
 
-## 桜 · Links
+## ✦ 桜 · Links
 
 [Website](https://github.com/082-0/cobweb-placement-optimizer) · [Issues](https://github.com/082-0/cobweb-placement-optimizer/issues) · Made by [08](https://github.com/082-0) · Discord **`meantforlove.`**
 
